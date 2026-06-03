@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <nav class="navbar">
+        <div class="logo">Agro<span>Sustentável</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">O Equilíbrio</a></li>
+            <li><a href="#midia">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, <br><span class="highlight">Futuro Sustentável</span></h1>
+            <p>O equilíbrio perfeito entre a alta produtividade no campo e a preservação do meio ambiente.</p>
+            <a href="#sobre" class="btn-primary">Conheça a Tecnologia</a>
+        </div>
+    </header>
+
+    <section id="sobre" class="section sobre">
+        <div class="container">
+            <h2 class="section-title">Produzir sem Destruir</h2>
+            <p class="section-subtitle">A tecnologia e a natureza caminhando lado a lado para alimentar o mundo.</p>
+            
+            <div class="grid-cards">
+                <div class="card">
+                    <i class="fa-solid fa-seedling card-icon"></i>
+                    <h3>Agricultura de Precisão</h3>
+                    <p>Otimização de recursos através de IA e drones, reduzindo o desperdício de água e insumos.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-solar-panel card-icon"></i>
+                    <h3>Energia Limpa</h3>
+                    <p>Uso de matrizes solares e biomassa para mover as operações no campo de forma autossustentável.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-hand-holding-droplet card-icon"></i>
+                    <h3>Manejo de Carbono</h3>
+                    <p>Práticas de plantio direto que retêm o carbono no solo, combatendo o aquecimento global.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="midia" class="section midia">
+        <div class="container">
+            <h2 class="section-title">O Campo em Ação</h2>
+            <p class="section-subtitle">Veja como a sustentabilidade transforma a produção real.</p>
+            
+            <div class="video-container">
+                <video autoplay muted loop playsinline class="main-video">
+                    <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27c34da839bf6da8da94903348d2eb975bbdf31&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+                <div class="video-overlay">
+                    <h3>Tecnologia Verde no Campo</h3>
+                </div>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?auto=format&fit=crop&w=600&q=80" alt="Plantação Sustentável">
+                    <div class="img-desc">Monitoramento de Culturas</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=600&q=80" alt="Trator Tecnológico">
+                    <div class="img-desc">Maquinário de Baixa Emissão</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=600&q=80" alt="Energia Solar no Campo">
+                    <div class="img-desc">Fazendas Solares</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section contato">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Una-se à Revolução Verde</h2>
+                <p>Receba relatórios e novidades sobre o agronegócio sustentável.</p>
+                <form id="agro-form" class="form">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu Melhor E-mail" required>
+                    <button type="submit" class="btn-submit">Fazer Parte</button>
+                </form>
+                <div id="form-message" class="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroSustentável. Todos os direitos reservados. Cultivando um amanhã melhor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
